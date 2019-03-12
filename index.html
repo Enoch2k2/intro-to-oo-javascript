@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Object Oriented Javascript - 11/26 FT</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  
+  <script src="index.js"></script>
+</head>
+<body class="grey lighten-3">
+  <div class="container white">
+    <div class="card">
+      <div class="card-content">
+        <h1 class="center">Welcome to OO Javascript</h1>
+        <div id="main">
+        </div>
+        
+        <form onsubmit="createUser(); return false">
+          <div class="input-field">
+            <input type="text" id="username" /><br>
+            <label for="username">Username: </label>
+          </div>
+          <div class="input-field">
+            <input type="text" id="age" /><br>
+            <label for="age">Age: </label>
+          </div>
+          <div class="input-field">
+            <input type="text" id="hobby" /><br>
+            <label for="hobby">Hobby: </label>
+          </div>
+          <div class="input-field">
+            <input type="submit" value="Create User" class="btn">
+          </div>
+          </form>
+          
+          <h3>List of Users</h3>
+          <table class="striped">
+            <thead>
+              <th>Username</th>
+              <th>Age</th>
+              <th>Hobby</th>
+            </thead>
+            <tbody id="list">
+
+            </tbody>
+          </table>
+      </div>
+    </div>
+  </div>
+    <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+  </html>
